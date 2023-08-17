@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> To Do List</title>
+    <link rel="shortcut icon" href="./pencil/pencil.jpg" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <h1 class="text-3xl text-gray-600 font-bold text-center underline mt-10"> To-Do List </h1>
+    <input id="user-input" type="text" placeholder="type your list" class="input input-bordered input-success max-w-lg w-full mx-auto mt-10 grid align-middle" />
+    <button id="btn-add" class="border border-gray-600 px-3 py-2 rounded-lg max-w-sm hover:bg-slate-600 hover:text-white mx-auto mt-2 grid align-middle">Add</button>
+    
+    <table id="table" class="table w-full max-w-2xl mx-auto mt-10">
+        <thead>
+            <tr class="font-monospace text-xl">
+                <th>No.</th>
+                <th>Items</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+    </table>
+
+    <script src="/script.js"></script>
+</body>
+</html>
